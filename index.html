@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind</title>
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class=" font-mono" >
+
+   <header class="bg-black py-3  ">
+    
+    <div class="container flex 
+    justify-between px-2 sm:px-0 mx-auto">
+    <!-- header contact part  -->
+        <div class="sm:flex">
+        <p class="text-white text-sm sm:text-base flex"><svg
+             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 pr-1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+          </svg>
+          utsosarkar7870@gmial.com</p>
+          <!-- contact-number -->
+          <p class="text-white  mt-1 text-sm sm:mt-0 sm:text-base flex sm:pl-5">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 pr-1 text-base">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+              </svg>
+              +8801781860882              
+          </p>
+        </div>
+          <!-- login part -->
+    <div class="sm:flex">
+        <a href="#" class="text-sm sm:text-base  text-white cursor-pointer sm:px-5 flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-yellow-500 pr-1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+          </svg>
+          
+          
+            Login</a>
+        <a href="#"  class="text-base mt-1 sm:mt-0 text-white cursor-pointer sm:pl-2 flex">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6  text-yellow-500 pr-1">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15m3 0 3-3m0 0-3-3m3 3H9" />
+              </svg>
+              
+            Signup</a>
+    </div>
+    </div>
+   </header>
+
+
+
+
+
+<!-- to do apps -->
+<section id="
+   
+   to-do-app
+   " class="
+   w-[90%]
+   mt-4
+   bg-cyan-300
+   m-auto
+   shadow-lg
+   border
+   rounded-lg
+   py-10">
+  <div class="
+      container
+      m-auto
+      ">
+      <h1 class="
+       text-center
+       font-bold
+       text-6xl
+       uppercase
+       opacity-75
+      ">To-do apps</h1>
+      <!-- add task part -->
+    <div class="
+       mt-6  
+       bg-slate-100
+       rounded-xl 
+      border-cyan-500
+      border-[2px]
+      pt-2
+      pb-4
+       text-center
+    ">
+      <form action="">
+        <p class="
+            mb-3
+            text-2xl
+       ">Add New Task</p>
+      <input type="text" id="input" placeholder="Enter your task" class="
+         border-[2px]
+         border-cyan-500
+         border-opacity-50
+         outline-none
+         rounded-2xl
+         text-lg
+         pl-4
+         pr-10
+         py-2
+         w-1/2
+      ">
+      <input type="submit" value="add task" class="
+          ml-2
+          py-2
+          cursor-pointer
+          text-lg
+          font-bold
+          text-slate-100
+          hover:bg-green-500
+            hover:shadow-lg
+            hover:scale-105
+            hover:transition-all
+          px-4
+          bg-blue-600
+          rounded-2xl   
+      ">
+      </form>
+    </div>
+      <!-- add task part -->
+      <!-- task show part -->
+   <div class="
+     mt-6
+     md:flex
+     md:justify-between
+     ">
+      <div class="
+        bg-slate-100
+        p-5
+        rounded-xl
+        md:w-[46%]
+        border-[2px]
+        text-center
+        border-cyan-500
+       
+      ">
+         <h2 class="
+           text-2xl
+           capitalize
+           opacity-75
+           pb-2
+           border-b-2
+           border-opacity-30
+           border-black 
+           font-semibold 
+         ">Incomplete tasks</h2>
+         <div id="task-item" class="">
+            <ul id="incomplete-ul">
+              <li class="
+                incomlistitem ">
+                 <input type="checkbox">
+                 <p class="
+                    pl-3
+                    capitalize
+                 ">add task</p>
+              </li>
+            </ul>
+         </div>
+      </div>
+      <!-- complete task -->
+      <div class="
+      bg-slate-100
+      p-5
+      rounded-xl
+      md:w-[46%]
+      border-[2px]
+      text-center
+      border-cyan-500
+     
+    ">
+       <h2 class="
+         text-2xl
+         capitalize
+         opacity-75
+         pb-2
+         border-b-2
+        border-opacity-30
+         border-black  
+         font-semibold 
+       ">complete tasks</h2>
+       <div id="task-item" >
+          <ul id="complete-ul">
+            <li class="
+             listitem ">   
+               <p class="
+                  pl-3
+                  capitalize
+               ">add task</p>
+               <button id="delete" class="
+               delete-btn
+               ">Delete</button>
+            </li>
+          </ul>
+       </div>
+    </div>
+   </div>
+
+  </div>
+</section>
+
+
+
+   <script src="js/script.js"></script>
+</body>
+</html>

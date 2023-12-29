@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .delete-btn {
+      @apply  ml-1
+      py-1
+      cursor-pointer
+      text-lg
+      font-bold
+      text-slate-100
+      hover:bg-green-500
+        hover:shadow-lg
+        hover:scale-105
+        hover:transition-all
+      px-4
+      bg-red-600
+      rounded-2xl  ;
+    }
+    .incomlistitem {
+      @apply flex 
+      pb-3 
+      border-b-[1px] 
+      border-opacity-30
+    border-black
+    pt-4 text-xl
+    capitalize ;
+    }
+.listitem { @apply flex 
+justify-between
+items-center
+pb-4 
+px-1
+border-b-[1px] 
+border-opacity-30
+pt-4 text-xl
+capitalize
+border-black}
+    
+  }
+
